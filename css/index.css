@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   min-height: 100vh;
+   align-items: center;
+   text-align: center;
+   background-color: rgb(231, 231, 231);
+}
+
+img{
+    position: absolute;
+    width: 80px;
+    margin-top: -32%;
+}
+
+form{
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+}
+
+.telp{
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+h3{
+    font-family: 'Helvetica';
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(79, 79, 79);
+}
+
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: rgb(79, 79, 79);;
+}
+
+h5 span{
+    font-weight: 600;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bbbbbb;
+    margin-left: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+select{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #ededed;
+}
+
+option{
+    font-weight: 500;
+}
+
+
+.wa {
+    width: 100%;
+    padding: 10px;
+    background-color: #e0004d;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.wa:hover{
+    background-color: #b70040;
+}
+
+.sms{
+    width: 100%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #e0004d;
+    border-color: #e0004d;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.sms:hover{
+    background-color: whitesmoke;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: rgb(79, 79, 79);;
+}
+
+a{
+    color: rgb(75, 75, 159);
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #e0004d;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: #b70040;
+}
